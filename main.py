@@ -43,7 +43,7 @@ load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 # Load PDF and process text
-pdf_path = "CRLS-FINALBOOK-2023 (1).pdf"
+pdf_path = "CRLS-FINALBOOK-2023.pdf"
 loader = PDFPlumberLoader(pdf_path)
 documents = loader.load()
 
